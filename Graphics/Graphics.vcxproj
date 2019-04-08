@@ -143,15 +143,37 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Drawable.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="TestState.cpp" />
+    <ClCompile Include="RoomCube.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="InitialState.cpp" />
+    <ClCompile Include="TestState2.cpp" />
+    <ClCompile Include="TexturedShape.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Application.h" />
-    <ClInclude Include="GameState.h" />
-    <ClInclude Include="TestState.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="RoomCube.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="InitialState.h" />
+    <ClInclude Include="TestState2.h" />
+    <ClInclude Include="TexturedShape.h" />
     <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="object_shader.frag" />
+    <None Include="object_shader.vert" />
+    <None Include="texture_shader.frag" />
+    <None Include="texture_shader.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="carpet.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
